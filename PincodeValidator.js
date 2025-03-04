@@ -1,5 +1,5 @@
 //regex to validate pincode
-const regex = /^[0-9][0-9]{5}$/;
+const regex = /^[0-9]{6}$/;
 
 //function to validate pin code
 function validate(pincode){
@@ -8,3 +8,4 @@ function validate(pincode){
 
 console.log(validate(400088));
 console.log(validate("A40088"));
+console.log(validate("400088B"));
